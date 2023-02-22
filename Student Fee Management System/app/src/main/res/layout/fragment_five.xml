@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:padding="5dp"
+    tools:context=".five">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/HeadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:padding="10dp"
+            android:text="@string/t5" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView13"
+        android:layout_marginTop="10dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <de.codecrafters.tableview.TableView
+                android:id="@+id/table"
+                android:layout_width="800dp"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:textAlignment="center"
+                tools:ignore="MissingClass" />
+
+        </HorizontalScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
