@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Fee Management System</string>
+    <string name="tab_text_1">Add Student</string>
+    <string name="tab_text_2">Modify Student</string>
+    <string name="tab_text_3">Student Details</string>
+    <string name="tab_text_4">Add Fee</string>
+    <string name="tab_text_5">Fee Details</string>
+    <string name="del">Delete</string>
+    <string name="upd">Update</string>
+    <string name="name">Name</string>
+    <string name="add">Address</string>
+    <string name="cont">Contact</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Password</string>
+    <string name="addbtn">Add</string>
+    <string name="ext">Exit</string>
+    <string name="sid">Search ID</string>
+    <string name="sbtn">Search</string>
+    <string name="t1">Add Student</string>
+    <string name="t2">Modify Student</string>
+    <string name="t3">Show Student Details</string>
+    <string name="t4">Add Fee</string>
+    <string name="se">Enter Enrollment</string>
+    <string name="enr">Enrollment</string>
+    <string name="date">Enter Date</string>
+    <string name="fee">Fee Amount</string>
+    <string name="f1">Tution</string>
+    <string name="f2">Exam</string>
+    <string name="f3">Van</string>
+    <string name="date1">Date</string>
+    <string name="f0">Fee:</string>
+    <string name="subbtn">Submit</string>
+    <string name="t5">Student Fee Details</string>
+    <string name="login">Login</string>
+    <string name="user">Username</string>
+
+
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
